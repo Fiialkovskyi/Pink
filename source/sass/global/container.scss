@@ -1,10 +1,14 @@
 .container {
+  box-sizing: border-box;
+
   width: auto;
   padding: 0 20px;
   margin: 0 auto;
 }
 
 @media (min-width: $desktop-width) {
-  width: $desktop-width;
-  padding: 0 10px;
+  .container {
+    width: $desktop-width;
+    padding: 0 10px;
+  }
 }
