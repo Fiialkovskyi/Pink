@@ -176,10 +176,65 @@
             <button class="reviews__button reviews__button--next" type="button"><span class="visually-hidden">Слудующий отзыв</span></button>
           </div>
           <div class="reviews__toggles">
-            <label class="reviews__toggle reviews__toggle--left" for="reviews__radio--1"><span class="visually-hidden">Первый слайд</span></label>
-            <label class="reviews__toggle reviews__toggle--right" for="reviews__radio--2"><span class="visually-hidden">Второй слайд</span></label>
+            <label class="reviews__toggle" for="reviews__radio--1"><span class="visually-hidden">Первый слайд</span></label>
+            <label class="reviews__toggle" for="reviews__radio--2"><span class="visually-hidden">Второй слайд</span></label>
             <label class="reviews__toggle" for="reviews__radio--3"><span class="visually-hidden">Третий слайд</span></label>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="prices">
+      <h2 class="visually-hidden">Цены на приложение Pink</h2>
+      <div class="container">
+        <input class="prices__switcher" type="radio" name="prices" id="prices__radio--1">
+        <input class="prices__switcher" type="radio" name="prices" id="prices__radio--2" checked>
+        <input class="prices__switcher" type="radio" name="prices" id="prices__radio--3">
+
+        <table class="prices__table">
+          <thead class="prices__table-head">
+            <tr>
+              <th class="prices__hidden-cell"></th>
+              <th class="prices__plan">
+                <p class="prices__plan--name">База</p>
+                <p class="prices__plan--price">1,99 USD</p>
+              </th>
+              <th class="prices__plan prices__plan--hit">
+                <p class="prices__plan--name">Стандарт</p>
+                <p class="prices__plan--price">3,99 USD</p>
+              </th>
+              <th class="prices__plan">
+                <p class="prices__plan--name">Анлим</p>
+                <p class="prices__plan--price">9,99 USD</p>
+              </th>
+            </tr>
+          </thead>
+          <tbody class="prices__table-body">
+            <tr>
+              <td class="prices__hidden-cell">Розовый фильтр</td>
+              <td><span class="prices__hidden-text">Розовый фильтр</span><div class="prices__check-icon prices__check-icon--yes">Есть</div></td>
+              <td><span class="prices__hidden-text">Розовый фильтр</span><div class="prices__check-icon prices__check-icon--yes">Есть</div></td>
+              <td><span class="prices__hidden-text">Розовый фильтр</span><div class="prices__check-icon prices__check-icon--yes">Есть</div></td>
+            </tr>
+            <tr>
+              <td class="prices__hidden-cell">Смайлики</td>
+              <td><span class="prices__hidden-text">Смайлики</span><div class="prices__check-icon prices__check-icon--no">Нет</div></td>
+              <td><span class="prices__hidden-text">Смайлики</span><div class="prices__check-icon prices__check-icon--yes">Есть</div></td>
+              <td><span class="prices__hidden-text">Смайлики</span><div class="prices__check-icon prices__check-icon--yes">Есть</div></td>
+            </tr>
+            <tr>
+              <td class="prices__hidden-cell">Комментарии</td>
+              <td><span class="prices__hidden-text">Комментарии</span><div class="prices__check-icon prices__check-icon--no">Нет</div></td>
+              <td><span class="prices__hidden-text">Комментарии</span><div class="prices__check-icon prices__check-icon--no">Нет</div></td>
+              <td><span class="prices__hidden-text">Комментарии</span><div class="prices__check-icon prices__check-icon--yes">Есть</div></td>
+            </tr>
+          </tbody>
+        </table>
+
+        <div class="prices__toggles">
+          <label class="prices__toggle" for="prices__radio--1"><span class="visually-hidden">Первый слайд</span></label>
+          <label class="prices__toggle" for="prices__radio--2"><span class="visually-hidden">Второй слайд</span></label>
+          <label class="prices__toggle" for="prices__radio--3"><span class="visually-hidden">Третий слайд</span></label>
         </div>
       </div>
     </section>
