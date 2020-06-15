@@ -102,3 +102,48 @@
     padding-top: 3px;
   }
 }
+
+@media (min-width: $desktop-width) {
+  .contacts {
+    .container {
+      padding: 0 2px;
+    }
+  }
+
+  .contacts__title {
+    padding-top: 65px;
+
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .contacts__wrapper {
+    padding-top: 21px;
+  }
+
+  .contacts__inner-wrapper {
+    width: 33.33%;
+    padding: 0;
+  }
+
+  .contacts__inner-wrapper--first {
+    .contacts__text {
+      padding-bottom: 23px;
+    }
+  }
+
+  .contacts__inner-wrapper--second {
+    order: 3;
+
+    .contacts__text {
+      padding-bottom: 24px;
+    }
+  }
+
+  .contacts__inner-wrapper--third {
+    .contacts__text {
+      padding-bottom: 20px;
+    }
+  }
+
+}
