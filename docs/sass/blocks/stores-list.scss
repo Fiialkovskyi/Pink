@@ -1,0 +1,60 @@
+.stores-list {
+  display: flex;
+
+  margin: 0;
+  padding: 0;
+
+  width: 206px;
+
+  list-style: none;
+}
+
+.stores-list__item {
+  padding: 0;
+  margin: 0;
+}
+
+.stores-list__item--apple {
+  padding-right: 34px;
+
+  width: 47px;
+  height: 56px;
+}
+
+.stores-list__item--android {
+  padding-top: 8px;
+  padding-right: 37px;
+
+  width: 43px;
+  height: 47px;
+}
+
+.stores-list__item--microsoft {
+  padding-top: 12px;
+
+  width: 44px;
+  height: 41px;
+}
+
+@media (min-width: $tablet-width) {
+  .stores-list__item--apple {
+    padding-right: 36px;
+  }
+
+  .stores-list__item--android {
+    padding-right: 35px;
+  }
+}
+
+
+
+@media (min-width: $desktop-width) {
+  .stores-list__item--apple {
+    padding-right: 34px;
+  }
+
+  .stores-list__item--android {
+    padding-top: 8px;
+    padding-right: 37px;
+  }
+}
