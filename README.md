@@ -1,1 +1,1 @@
-В разработке
+https://fiialkovskyi.github.io/Pink/
