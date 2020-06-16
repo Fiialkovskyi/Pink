@@ -1,0 +1,36 @@
+.copyright {
+  display: flex;
+}
+
+.copyright__text {
+  margin: 0;
+  padding: 0;
+  padding-top: 6px;
+  padding-right: 14px;
+
+  font-size: 14px;
+  line-height: 18px;
+  color: #283645;
+}
+
+.copyright__link {
+  display: block;
+  width: 27px;
+  height: 34px;
+}
+
+.copyright__link-img {
+  width: 27px;
+  height: 34px;
+
+  fill: #d22856;
+}
+
+@media (min-width: $desktop-width) {
+  .copyright__text {
+    margin-top: -2px;
+
+    font-size: 18px;
+    line-height: 18px;
+  }
+}
